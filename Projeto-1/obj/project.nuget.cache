@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4JNKcUUNlJU=",
+  "dgSpecHash": "gGbHPY4WZb0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ELAINE HEYEK\\Desktop\\bootcamp_dio_dotnet\\projeto-1\\Projeto-1.csproj",
+  "projectFilePath": "C:\\Users\\ELAINE HEYEK\\Desktop\\bootcamp_dio_dotnet\\Projeto-1\\Projeto-1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ELAINE HEYEK\\.nuget\\packages\\aspire.hosting\\8.0.0\\aspire.hosting.8.0.0.nupkg.sha512",
     "C:\\Users\\ELAINE HEYEK\\.nuget\\packages\\aspire.hosting.apphost\\8.0.0\\aspire.hosting.apphost.8.0.0.nupkg.sha512",

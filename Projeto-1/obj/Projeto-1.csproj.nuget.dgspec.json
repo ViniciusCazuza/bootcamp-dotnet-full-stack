@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ELAINE HEYEK\\Desktop\\bootcamp_dio_dotnet\\projeto-1\\Projeto-1.csproj": {}
+    "C:\\Users\\ELAINE HEYEK\\Desktop\\bootcamp_dio_dotnet\\Projeto-1\\Projeto-1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ELAINE HEYEK\\Desktop\\bootcamp_dio_dotnet\\projeto-1\\Projeto-1.csproj": {
+    "C:\\Users\\ELAINE HEYEK\\Desktop\\bootcamp_dio_dotnet\\Projeto-1\\Projeto-1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ELAINE HEYEK\\Desktop\\bootcamp_dio_dotnet\\projeto-1\\Projeto-1.csproj",
+        "projectUniqueName": "C:\\Users\\ELAINE HEYEK\\Desktop\\bootcamp_dio_dotnet\\Projeto-1\\Projeto-1.csproj",
         "projectName": "Projeto-1",
-        "projectPath": "C:\\Users\\ELAINE HEYEK\\Desktop\\bootcamp_dio_dotnet\\projeto-1\\Projeto-1.csproj",
+        "projectPath": "C:\\Users\\ELAINE HEYEK\\Desktop\\bootcamp_dio_dotnet\\Projeto-1\\Projeto-1.csproj",
         "packagesPath": "C:\\Users\\ELAINE HEYEK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ELAINE HEYEK\\Desktop\\bootcamp_dio_dotnet\\projeto-1\\obj\\",
+        "outputPath": "C:\\Users\\ELAINE HEYEK\\Desktop\\bootcamp_dio_dotnet\\Projeto-1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
