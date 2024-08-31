@@ -13,7 +13,8 @@ namespace PessoaFisica.models
         public string Nome { get; set; }
         public string Sobrenome { get; set; }
         public string Id { get; set; } 
-
+        
+        
 
         public void CadastroNome()
         {
@@ -21,6 +22,7 @@ namespace PessoaFisica.models
             Console.WriteLine($"\n\n\nOlá {Nome}, seu nome foi registrado com sucesso! ");
 
         }
+
 
     }
 
@@ -82,13 +84,15 @@ namespace PessoaFisica.models
                 }
 
             if (diaHojeInteiro == Dia)
-            {
+            {   
+                Console.Clear();
                 Console.WriteLine($"\n\n\n\n\n{NomeId}, Data de Nascimento cadastrada com sucesso! \n"+
                 $"A sua Data de Nascimento é {dataCompleta} e a sua idade é {Idade} Anos, e hoje é seu Aniversário, Parebéns\n\n");
                 Console.ReadKey();
             }
                 else
                 {
+                    Console.Clear();
                     Console.WriteLine($"\n\n\n\n\n{NomeId}, Data de Nascimento cadastrada com sucesso! \n" + 
                     $"A sua Data de Nascimento é {dataCompleta} e a sua idade é {Idade} Anos.\n\n");
                     Console.ReadKey();

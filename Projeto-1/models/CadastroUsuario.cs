@@ -9,10 +9,10 @@ namespace CadastroUsuario.models
 {
     public class Cadastro
     {
+        public string IdNome { get; set; }
         public void CadastroNomeData()
         {
             Pessoa pessoa1 = new Pessoa();
-            Calculadora id = new Calculadora();
             DataNascimento data = new DataNascimento();
             DataNascimento error = new DataNascimento();
 
@@ -32,7 +32,7 @@ namespace CadastroUsuario.models
             string sobrenome = pessoa1.Sobrenome;
 
             data.NomeId = nome + " " +  sobrenome;
-            id.IdCalculadora = data.NomeId;
+            
 
             pessoa1.CadastroNome();
 
