@@ -12,13 +12,17 @@ namespace PessoaFisica.models
     {
         public string Nome { get; set; }
         public string Sobrenome { get; set; }
-
+        public string Id { get; set; } 
+        
+        
 
         public void CadastroNome()
         {
-            Console.WriteLine($"\n\nOlá {Nome}, seu nome foi registrado com sucesso! ");
+            
+            Console.WriteLine($"\n\n\nOlá {Nome}, seu nome foi registrado com sucesso! ");
 
         }
+
 
     }
 
@@ -31,7 +35,7 @@ namespace PessoaFisica.models
     public int Mes { get; set; }
     public int Ano { get; set; }
     public int Idade { get; set; }
-
+    public string NomeId { get; set; }
 
         public void CadastroData()
         {
@@ -80,14 +84,18 @@ namespace PessoaFisica.models
                 }
 
             if (diaHojeInteiro == Dia)
-            {
-                Console.WriteLine($"\n\nData de Nascimento cadastrada com sucesso! \n"+
+            {   
+                Console.Clear();
+                Console.WriteLine($"\n\n\n\n\n{NomeId}, Data de Nascimento cadastrada com sucesso! \n"+
                 $"A sua Data de Nascimento é {dataCompleta} e a sua idade é {Idade} Anos, e hoje é seu Aniversário, Parebéns\n\n");
+                Console.ReadKey();
             }
                 else
                 {
-                    Console.WriteLine($"\n\nData de Nascimento cadastrada com sucesso! \n" + 
+                    Console.Clear();
+                    Console.WriteLine($"\n\n\n\n\n{NomeId}, Data de Nascimento cadastrada com sucesso! \n" + 
                     $"A sua Data de Nascimento é {dataCompleta} e a sua idade é {Idade} Anos.\n\n");
+                    Console.ReadKey();
                 }
 
             }
@@ -95,7 +103,20 @@ namespace PessoaFisica.models
 
            else 
             { 
-                Console.WriteLine("\n\nVocê digitou um caracter inválido, Por gentileza insira novamente\n\n");
+
+                if (Dia == 0)
+                {
+                    Console.WriteLine("\n\n\nVocê digitou um caracter inválido no seu Dia de Nascimento,\nPor gentileza insira novamente\n\n");
+                }
+                else if (Mes == 0)
+                {
+                Console.WriteLine("\n\n\nVocê digitou um caracter inválido no seu Mês de Nascimento,\nPor gentileza insira novamente\n\n");
+                }
+                else if (Ano == 0)
+                {
+                Console.WriteLine("\n\n\nVocê digitou um caracter inválido no seu Ano de Nascimento,\nPor gentileza insira novamente\n\n");
+                }
+
 
                 Dia = 0;
                 Mes = 0;

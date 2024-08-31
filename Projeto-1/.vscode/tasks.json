@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "msbuild",
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build",
+			"label": "Build: Projeto-1.csproj",
+			"detail": "Build the Projeto-1.csproj project using dotnet build"
+		}
+	]
+}

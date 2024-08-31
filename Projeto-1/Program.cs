@@ -1,69 +1,52 @@
-﻿using PessoaFisica.models;
+﻿using CadastroUsuario.models;
+using SistemaCalculadora.models;
+using PessoaFisica.models;
+using SistemaTaboada.models;
 
+Cadastro cadastro = new Cadastro();
+Pessoa nome = new Pessoa();
+Calculadora calculadora = new Calculadora();
+Taboada taboada = new Taboada();
+string opcao;
 
-Pessoa pessoa1 = new Pessoa();
-DataNascimento data = new DataNascimento();
-DataNascimento error = new DataNascimento();
+while (true)
+{
+Console.Clear();
+Console.WriteLine(
 
+    $"Olá, digite a opção que deseja: \n\n" +
+    "1 - Cadastrar-me \n" +
+    "2 - Calculadora \n" +
+    "3 - Taboada \n" +
+    "\n0 - Sair\n\n"
+    );
 
-Console.WriteLine($"\n\nOlá, Qual é o seu Primeiro Nome ? \n\n");
+opcao = Console.ReadLine();
 
-pessoa1.Nome = Console.ReadLine();
-string nome = pessoa1.Nome;
-var errorMessage = false;
-Console.WriteLine($"\n\nÓtimo, agora qual é o seu Segundo Nome ? \n\n");
-
-pessoa1.Sobrenome = Console.ReadLine();
-
-
-pessoa1.CadastroNome();
-
-
-
-    Console.WriteLine($"\nAgora vamos cadastrar a sua Data de Nascimento.\n");
-    while (errorMessage == false ) 
+    switch (opcao)
     {
-        Console.WriteLine($"\n\nEm que dia você Nasceu ? \n\n");
-        var respostaDia = Console.ReadLine();
-        errorMessage = int.TryParse(respostaDia, out int b);
 
-        if (errorMessage == true)
-        {
+        case "1":
+        cadastro.CadastroNomeData();
+        break;
 
-            data.Dia = Convert.ToInt32(respostaDia);
+        case "2":
+        calculadora.Menu();
+        break;
         
-        }
+        case "3":
+        taboada.Menu();
+        break;
 
-        Console.WriteLine($"\n{nome}, agora me diga o mês em que você Nasceu ? \n\n");
-        var respostaMes = Console.ReadLine();
-        errorMessage = int.TryParse(respostaMes, out b);
+        case "0":
+        Console.WriteLine("Até logo!");
+        Environment.Exit(0);
+        break;
 
-        if (errorMessage == true)
-        {
-            
-            data.Mes = Convert.ToInt32(respostaMes);
-
-        }
-
-
-        Console.WriteLine($"\n{nome}, Por favor me diga o ano que você Nasceu ? \n\n");
-        var respostaAno = Console.ReadLine();
-        errorMessage = int.TryParse(respostaAno, out b);
-        if (errorMessage == true)
-        {
-
-            data.Ano = Convert.ToInt32(respostaAno);
-        
-        }
-        data.CadastroData();
-
-        if (data.Dia == 0 || data.Mes == 0 || data.Ano == 0)
-        {
-            errorMessage = false;
-
-        }
+        default:
+        Console.WriteLine("Opção Invalida, tente novamente!");
+        Console.ReadKey();
+        break;
     }
-
-
-
+}
 
