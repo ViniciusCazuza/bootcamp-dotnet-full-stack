@@ -1,0 +1,12 @@
+C:\Users\ELAINE HEYEK\Desktop\bootcamp_dio_dotnet\Projeto-1\Projeto-1.Common\bin\Debug\net8.0\Projeto-1.Common.deps.json
+C:\Users\ELAINE HEYEK\Desktop\bootcamp_dio_dotnet\Projeto-1\Projeto-1.Common\bin\Debug\net8.0\Projeto-1.Common.dll
+C:\Users\ELAINE HEYEK\Desktop\bootcamp_dio_dotnet\Projeto-1\Projeto-1.Common\bin\Debug\net8.0\Projeto-1.Common.pdb
+C:\Users\ELAINE HEYEK\Desktop\bootcamp_dio_dotnet\Projeto-1\Projeto-1.Common\obj\Debug\net8.0\Projeto-1.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ELAINE HEYEK\Desktop\bootcamp_dio_dotnet\Projeto-1\Projeto-1.Common\obj\Debug\net8.0\Projeto-1.Common.AssemblyInfoInputs.cache
+C:\Users\ELAINE HEYEK\Desktop\bootcamp_dio_dotnet\Projeto-1\Projeto-1.Common\obj\Debug\net8.0\Projeto-1.Common.AssemblyInfo.cs
+C:\Users\ELAINE HEYEK\Desktop\bootcamp_dio_dotnet\Projeto-1\Projeto-1.Common\obj\Debug\net8.0\Projeto-1.Common.csproj.CoreCompileInputs.cache
+C:\Users\ELAINE HEYEK\Desktop\bootcamp_dio_dotnet\Projeto-1\Projeto-1.Common\obj\Debug\net8.0\Projeto-1.Common.sourcelink.json
+C:\Users\ELAINE HEYEK\Desktop\bootcamp_dio_dotnet\Projeto-1\Projeto-1.Common\obj\Debug\net8.0\Projeto-1.Common.dll
+C:\Users\ELAINE HEYEK\Desktop\bootcamp_dio_dotnet\Projeto-1\Projeto-1.Common\obj\Debug\net8.0\refint\Projeto-1.Common.dll
+C:\Users\ELAINE HEYEK\Desktop\bootcamp_dio_dotnet\Projeto-1\Projeto-1.Common\obj\Debug\net8.0\Projeto-1.Common.pdb
+C:\Users\ELAINE HEYEK\Desktop\bootcamp_dio_dotnet\Projeto-1\Projeto-1.Common\obj\Debug\net8.0\ref\Projeto-1.Common.dll

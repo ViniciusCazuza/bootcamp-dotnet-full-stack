@@ -1,0 +1,23 @@
+{
+    "configurations": [
+       
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Projeto-1/bin/Debug/net8.0/Projeto-1.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+          },
+          
+          {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach",
+    
+          }
+    ]
+}
